@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.broadcast",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "broadcast",
+    "packageName": "mk.ukim.finki.broadcast",
+    "packageFolder": "mk/ukim/finki/broadcast",
+    "serverPort": "8083",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTNmMjNkNDcyMWJmYTQzMDhiMDQyMzM3ZjM4OGEzNzI3YmU4OGU5YzFiNzBlN2Y5ZWE4YTliYjZkOGIyMTU3YWZlODA5YzUzZmE2ODJlMmExZDlhY2NiY2YxZWQxMmQwNzlkNzYxNTBkZDdlNjdjM2VhNTIyNTg2ODQxZTM2MmE=",
+    "enableTranslation": true,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
