@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.emergency"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "emergency",
+    "packageName": "mk.ukim.finki.emergency",
+    "packageFolder": "mk/ukim/finki/emergency",
+    "serverPort": "8084",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTJmM2ZmNDI3M2ZjMDM4MWE5Y2M2MTM2NmE3Y2M1N2RiYTYzOGY2NGRhM2QyM2ZkM2NmOWUzNzE3NzVlYmUwNzE0MzQ5MjE0Y2RhYTc5ODk0NTg2YTI4OGQ3ZmNlOWQyYmQzYTUyZDczZTI2MGYzMzQ0MTIxNGQyZDFiMDA3ZDE=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

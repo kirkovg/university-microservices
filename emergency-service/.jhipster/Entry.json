@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "emergency",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "contact",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180903174942",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "entry",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "emergency"
+}
