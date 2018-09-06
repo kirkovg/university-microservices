@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.courseinfo"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "courseinfo",
+    "packageName": "mk.ukim.finki.courseinfo",
+    "packageFolder": "mk/ukim/finki/courseinfo",
+    "serverPort": "8089",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2VmY2I3ZjNlZjhmMjkwMjdlN2U2YmZhMDViMTE5MDc3YTRmNmZiMmI4Y2RlOWI1YWIwZGE1YTdlYjMzOTcwOGYyYWYxYTUyOTllZDAwNWZlZDgzNTE0OTY1ZjI5YjM5M2U2NGVkMmJjMTllYmNhOGZmNWI0ZWZiYzZiNmU0ZDU=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

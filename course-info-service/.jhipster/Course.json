@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "courseinfo",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "credits",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "professor",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180906180608",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "course",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "courseinfo"
+}
