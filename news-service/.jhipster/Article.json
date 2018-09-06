@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "news",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "content",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "creationDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "modificationDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20180906181617",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "article",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "news"
+}

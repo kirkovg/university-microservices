@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.news"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "news",
+    "packageName": "mk.ukim.finki.news",
+    "packageFolder": "mk/ukim/finki/news",
+    "serverPort": "8090",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTRkYWU2OGZhNDk1NWNjZmYwYTQwYzgwYjg5ZmYyYzhkZjM4YmM2ODliYTIwZTljMTI2YjA0NmE2Yzk4YTQ0N2ZmMjhiNzUzNGQwODFlYjU0MjBhYzQ4ZmRlNmY0YTVkZDEzZTM2MmU0MmFiMTQ4ZWRjZjA5ZTZhOWU5YTA0ZmE=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
