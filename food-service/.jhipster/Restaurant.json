@@ -1,0 +1,34 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "food",
+    "relationships": [
+        {
+            "relationshipName": "menu",
+            "otherEntityName": "menu",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "restaurant"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "location",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "capacity",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180906171848",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "restaurant",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "food"
+}

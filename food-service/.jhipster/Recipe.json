@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "food",
+    "relationships": [
+        {
+            "relationshipName": "ingredient",
+            "otherEntityName": "ingredient",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "recipe"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "changelogDate": "20180906171412",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "recipe",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "food"
+}

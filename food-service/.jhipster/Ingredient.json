@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "food",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "weightInGrams",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "changelogDate": "20180906171222",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "ingredient",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "food"
+}

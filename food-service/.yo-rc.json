@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.food"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "food",
+    "packageName": "mk.ukim.finki.food",
+    "packageFolder": "mk/ukim/finki/food",
+    "serverPort": "8085",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDkwYWE1ZGViNGE1ZGMzZTYwZTQxOWZlN2QyNTQ3OWQ3NDg3NDY5ZjM4ZWUwMDVmN2MwMWM2NmVjMGFjYzVjYWVkNjAwYTgwOGNhYmM1MmU5N2NlNDViZjY5MTQwNzdmMzc1NzU4NTQwOGEwMTFmYWUwMmQzOWY1ZTk2NDVhOTA=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
