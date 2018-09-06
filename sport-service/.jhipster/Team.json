@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "sport",
+    "relationships": [
+        {
+            "relationshipName": "player",
+            "otherEntityName": "player",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "team"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sportType",
+            "fieldType": "SportType",
+            "fieldValues": "FOOTBALL,BASKETBALL,VOLLEYBALL,ROWING,RUGBY"
+        }
+    ],
+    "changelogDate": "20180906172726",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "team",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "sport"
+}

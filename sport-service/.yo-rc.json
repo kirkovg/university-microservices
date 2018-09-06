@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.sport"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "sport",
+    "packageName": "mk.ukim.finki.sport",
+    "packageFolder": "mk/ukim/finki/sport",
+    "serverPort": "8086",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2UxMGMxZmE0ZDkyNGQ1MGJhODBmNmY4MGJkZGVkOWEzNzQ1MzkwOThiNmNiYWZjOGUwYzU0NjdkNDAyNDE2MThlYmI0NTNkYjkwZTg0NjlmMzIxMGY2ZTQxZTI3NjE0YjBkNjliOWU0YjNmYTE1OWNkNzUzYjRmNDIwZGQ2ZTI=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

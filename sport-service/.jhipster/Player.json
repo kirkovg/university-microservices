@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "sport",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "age",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "weight",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "height",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "changelogDate": "20180906172404",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "player",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "sport"
+}
