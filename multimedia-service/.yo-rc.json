@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.multimedia"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "multimedia",
+    "packageName": "mk.ukim.finki.multimedia",
+    "packageFolder": "mk/ukim/finki/multimedia",
+    "serverPort": "8088",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "M2E4NjMyNzMyOTVmMDY3YjY1ZWQ5MjU5MzQxYzQ3ODc1MmIwZDQxYjdlYmY5ODVhZTZkYWRhOGExM2ZjMDZlZDZjMWEwZjgxMWUyOWQ5NzE3ZjdjNGIxOTI4MmMzY2RhYmE1NmUwMTc1Zjc2YzMzMzg0YjYwNmU1Y2YwMzFkZTQ=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
