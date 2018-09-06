@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.photo"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "photo",
+    "packageName": "mk.ukim.finki.photo",
+    "packageFolder": "mk/ukim/finki/photo",
+    "serverPort": "8087",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Nzk0ZjcyYzkwZTc0NTc5Yzk0ODE3MzBiOTAzYWE3Zjk5ODBjMTFjZjgxYzAyNmRmNDc1ODhiOWFiNTcyOTU5NzE0MjIxMzIyYWU1ZTRmMDhmNjJlN2NlNTM0YTM3NGY2MjQ1Y2JhM2I0ZjQyZDIzNzY2ODlkOWYzNmE1ZjM4ZmU=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
