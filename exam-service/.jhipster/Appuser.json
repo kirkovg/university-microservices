@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "exam",
+    "relationships": [
+        {
+            "relationshipName": "exam",
+            "otherEntityName": "exam",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "appuser"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180908130655",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "appuser",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "exam"
+}
