@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.assignedtask"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "assignedtask",
+    "packageName": "mk.ukim.finki.assignedtask",
+    "packageFolder": "mk/ukim/finki/assignedtask",
+    "serverPort": "8104",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OGUyOWQ0ZWIyZjhkYzQwMjJkMDMyYzY3MDU0ZDRlNWFiNDk1YzY0NDNkZDU5NTgyYWU5NmQ1YmFkOTQwOTVjZDg1NWQ2ZTZlNmIxYmViY2E5OTg1NGMxMjA2ZDViYjhkN2U1NDEwZjRjYTFhNmY5NTgwNDU1MDRhYzBkZTZlYzY=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

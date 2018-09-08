@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "assignedtask",
+    "relationships": [
+        {
+            "relationshipName": "task",
+            "otherEntityName": "task",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "student"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180908134956",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "student",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "assignedtask"
+}

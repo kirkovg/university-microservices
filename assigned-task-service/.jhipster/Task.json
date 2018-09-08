@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "assignedtask",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "courseName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dueDate",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20180908134915",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "task",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "assignedtask"
+}
