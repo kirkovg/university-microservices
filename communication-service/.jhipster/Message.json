@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "communication",
+    "relationships": [
+        {
+            "relationshipName": "from",
+            "otherEntityName": "appuser",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "name",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "message"
+        },
+        {
+            "relationshipName": "to",
+            "otherEntityName": "appuser",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "name",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "message"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "content",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sentAt",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20180908124343",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "message",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "communication"
+}
