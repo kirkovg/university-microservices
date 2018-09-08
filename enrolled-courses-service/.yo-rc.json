@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.enrolledcourses"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "enrolledcourses",
+    "packageName": "mk.ukim.finki.enrolledcourses",
+    "packageFolder": "mk/ukim/finki/enrolledcourses",
+    "serverPort": "8102",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MzU0OTc4ZDc5ZjhmZWUwMGZkNTA1NTRhMTk2MjAyYWFlNmUxMDIwOTRjMGVlNTQyNzBlYjNiZTBmYzQ2MjllNTE2M2JlZjgzNWE0Y2QzNmVlM2VlZDgyYzc5OTFkNTg1NDk0NzU4MTJmNGJlNjc4MTg3MTEzNWFmMjczZmQ4ODM=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

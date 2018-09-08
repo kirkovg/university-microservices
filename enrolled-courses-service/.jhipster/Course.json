@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "enrolledcourses",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lecturer",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180908131015",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "course",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "enrolledcourses"
+}
