@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.contact"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "contact",
+    "packageName": "mk.ukim.finki.contact",
+    "packageFolder": "mk/ukim/finki/contact",
+    "serverPort": "8100",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODc5ODM5NjU5YWU3ZWMyYjE3MzgzMDEzMTU5OTU0OTFmNjJjODVhNzk0NjYzYzIzMDkyZTk1Mzk0ZjI3OWY4MTYyOTBhMWNiMTM2MWU4NGYwMGJmYzZhMzYwNWEyNGI2NmM2ZGNkMjIxMjhhYTQ3MjQ3NDMzNTIzNDZiMTkyMDE=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
