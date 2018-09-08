@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.location"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "location",
+    "packageName": "mk.ukim.finki.location",
+    "packageFolder": "mk/ukim/finki/location",
+    "serverPort": "8097",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NzJiMjVhZDczNTZiMWQ1YzY4OTA3NTY2OWNlYzQzYzMzODlhNjI5M2Q5OGJlODk5NjQ1N2I5ZTM0ZjM4NmFhMjMzYTM0ZGY0ZDQ1MDE0YTAxYTUwMjM3NDljNzI4ZTk3MzEzMTJkNTU0YmYyOTIxN2VjYjlmNmRiODE0ODkyZGE=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "location",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressLine",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "posX",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "posY",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "changelogDate": "20180908113805",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "place",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "location"
+}
