@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.admission"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "microservice",
+    "baseName": "admission",
+    "packageName": "mk.ukim.finki.admission",
+    "packageFolder": "mk/ukim/finki/admission",
+    "serverPort": "8092",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjRmZGY1Nzc4ZTc1YzFiOTA1NTUwNjJiYTU3NzhmMjJlMGNmMzI3MTY0NGYwYzU2ZjA4NmI5MWIwZjhmMDc0NGFkMjI2ODllMzE0ZGQ5OWJkNDk4NDEwZGE5MTJlZDNmOWRkN2FiYjA5NWRjN2NiMjk5OGZiMGM2NTRmYWEwMTk=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
