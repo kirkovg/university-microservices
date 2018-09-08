@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "publictransport",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "universityStopTime",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20180908115501",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "line",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "publictransport"
+}
