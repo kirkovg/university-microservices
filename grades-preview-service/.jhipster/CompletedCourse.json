@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "gradespreview",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "grade",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "changelogDate": "20180908132928",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "completed_course",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "gradespreview"
+}
