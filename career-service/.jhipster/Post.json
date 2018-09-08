@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "career",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "creationDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "dueDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "jobType",
+            "fieldType": "JobType",
+            "fieldValues": "FULL_TIME_JOB,HALF_TIME_JOB,INTERNSHIP,VOLUNTEER"
+        },
+        {
+            "fieldName": "careerType",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180908112103",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "post",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "career"
+}
