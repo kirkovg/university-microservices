@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mk.ukim.finki.apigateway"
+    },
+    "jhipsterVersion": "5.3.0",
+    "applicationType": "gateway",
+    "baseName": "apigateway",
+    "packageName": "mk.ukim.finki.apigateway",
+    "packageFolder": "mk/ukim/finki/apigateway",
+    "serverPort": "8800",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Yzg0Njk2NzlkMjA2OWM3NmMyNTg5ODIxMDBkYTE1NTk3MGIwZDg2NDA3ZjgxNGNmYzhiZmFhZTBlODk0ZGNiNTg2YjllOTMxMjY0YmIwOWFjNzgyNWUyNjBlZDYyNDQ4MTk5NTUyMGJkOGVlMTg1YWY2YzMzOTJmYmFlMWE5MGU=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
+  }
+}
