@@ -30,8 +30,6 @@ public class MenuCriteria implements Serializable {
 
     private StringFilter name;
 
-    private LongFilter dishId;
-
     public MenuCriteria() {
     }
 
@@ -51,20 +49,11 @@ public class MenuCriteria implements Serializable {
         this.name = name;
     }
 
-    public LongFilter getDishId() {
-        return dishId;
-    }
-
-    public void setDishId(LongFilter dishId) {
-        this.dishId = dishId;
-    }
-
     @Override
     public String toString() {
         return "MenuCriteria{" +
                 (id != null ? "id=" + id + ", " : "") +
                 (name != null ? "name=" + name + ", " : "") +
-                (dishId != null ? "dishId=" + dishId + ", " : "") +
             "}";
     }
 

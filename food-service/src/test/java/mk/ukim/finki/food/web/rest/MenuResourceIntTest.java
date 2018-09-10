@@ -3,7 +3,6 @@ package mk.ukim.finki.food.web.rest;
 import mk.ukim.finki.food.FoodApp;
 
 import mk.ukim.finki.food.domain.Menu;
-import mk.ukim.finki.food.domain.Dish;
 import mk.ukim.finki.food.repository.MenuRepository;
 import mk.ukim.finki.food.service.MenuService;
 import mk.ukim.finki.food.web.rest.errors.ExceptionTranslator;
@@ -202,25 +201,6 @@ public class MenuResourceIntTest {
         // Get all the menuList where name is null
         defaultMenuShouldNotBeFound("name.specified=false");
     }
-
-    @Test
-    @Transactional
-    public void getAllMenusByDishIsEqualToSomething() throws Exception {
-        // Initialize the database
-        Dish dish = DishResourceIntTest.createEntity(em);
-        em.persist(dish);
-        em.flush();
-        menu.addDish(dish);
-        menuRepository.saveAndFlush(menu);
-        Long dishId = dish.getId();
-
-        // Get all the menuList where dish equals to dishId
-        defaultMenuShouldBeFound("dishId.equals=" + dishId);
-
-        // Get all the menuList where dish equals to dishId + 1
-        defaultMenuShouldNotBeFound("dishId.equals=" + (dishId + 1));
-    }
-
     /**
      * Executes the search, and checks that the default entity is returned
      */
