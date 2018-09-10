@@ -9,6 +9,8 @@ import { ApigatewayPostModule as CareerPostModule } from './career/post/post.mod
 import { ApigatewayAppuserModule as CommunicationAppuserModule } from './communication/appuser/appuser.module';
 import { ApigatewayMessageModule as CommunicationMessageModule } from './communication/message/message.module';
 import { ApigatewayStudentModule as ContactStudentModule } from './contact/student/student.module';
+import { ApigatewayCourseModule as CourseinfoCourseModule } from './courseinfo/course/course.module';
+import { ApigatewayProgramModule as CourseinfoProgramModule } from './courseinfo/program/program.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -23,6 +25,8 @@ import { ApigatewayStudentModule as ContactStudentModule } from './contact/stude
         CommunicationAppuserModule,
         CommunicationMessageModule,
         ContactStudentModule,
+        CourseinfoCourseModule,
+        CourseinfoProgramModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
