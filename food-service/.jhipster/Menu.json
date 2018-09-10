@@ -1,7 +1,14 @@
 {
     "fluentMethods": true,
     "clientRootFolder": "food",
-    "relationships": [],
+    "relationships": [
+        {
+            "relationshipName": "recipe",
+            "otherEntityName": "recipe",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "menu"
+        }
+    ],
     "fields": [
         {
             "fieldName": "name",

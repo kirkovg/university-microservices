@@ -1,9 +1,12 @@
 package mk.ukim.finki.food.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.Objects;
 
 /**
@@ -21,6 +24,9 @@ public class Menu implements Serializable {
 
     @Column(name = "name")
     private String name;
+
+    @OneToMany(mappedBy = "menu")
+    private Set<Recipe> recipes = new HashSet<>();
 
     // jhipster-needle-entity-add-field - JHipster will add fields here, do not remove
     public Long getId() {
@@ -42,6 +48,31 @@ public class Menu implements Serializable {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Set<Recipe> getRecipes() {
+        return recipes;
+    }
+
+    public Menu recipes(Set<Recipe> recipes) {
+        this.recipes = recipes;
+        return this;
+    }
+
+    public Menu addRecipe(Recipe recipe) {
+        this.recipes.add(recipe);
+        recipe.setMenu(this);
+        return this;
+    }
+
+    public Menu removeRecipe(Recipe recipe) {
+        this.recipes.remove(recipe);
+        recipe.setMenu(null);
+        return this;
+    }
+
+    public void setRecipes(Set<Recipe> recipes) {
+        this.recipes = recipes;
     }
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here, do not remove
 

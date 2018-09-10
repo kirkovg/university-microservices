@@ -73,6 +73,9 @@ public class MenuQueryService extends QueryService<Menu> {
             if (criteria.getName() != null) {
                 specification = specification.and(buildStringSpecification(criteria.getName(), Menu_.name));
             }
+            if (criteria.getRecipeId() != null) {
+                specification = specification.and(buildReferringEntitySpecification(criteria.getRecipeId(), Menu_.recipes, Recipe_.id));
+            }
         }
         return specification;
     }
