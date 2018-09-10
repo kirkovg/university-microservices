@@ -13,6 +13,8 @@ import { ApigatewayCourseModule as CourseinfoCourseModule } from './courseinfo/c
 import { ApigatewayProgramModule as CourseinfoProgramModule } from './courseinfo/program/program.module';
 import { ApigatewayContactModule as DirectoryContactModule } from './directory/contact/contact.module';
 import { ApigatewayEntryModule as EmergencyEntryModule } from './emergency/entry/entry.module';
+import { ApigatewayCourseModule as EnrolledcoursesCourseModule } from './enrolledcourses/course/course.module';
+import { ApigatewayStudentModule as EnrolledcoursesStudentModule } from './enrolledcourses/student/student.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -31,6 +33,8 @@ import { ApigatewayEntryModule as EmergencyEntryModule } from './emergency/entry
         CourseinfoProgramModule,
         DirectoryContactModule,
         EmergencyEntryModule,
+        EnrolledcoursesCourseModule,
+        EnrolledcoursesStudentModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
