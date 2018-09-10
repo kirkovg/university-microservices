@@ -5,6 +5,7 @@ import { ApigatewayProgramModule as AdmissionProgramModule } from './admission/p
 import { ApigatewayTaskModule as AssignedtaskTaskModule } from './assignedtask/task/task.module';
 import { ApigatewayStudentModule as AssignedtaskStudentModule } from './assignedtask/student/student.module';
 import { ApigatewayEntryModule as BroadcastEntryModule } from './broadcast/entry/entry.module';
+import { ApigatewayPostModule as CareerPostModule } from './career/post/post.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -15,6 +16,7 @@ import { ApigatewayEntryModule as BroadcastEntryModule } from './broadcast/entry
         AssignedtaskTaskModule,
         AssignedtaskStudentModule,
         BroadcastEntryModule,
+        CareerPostModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
