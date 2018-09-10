@@ -17,6 +17,10 @@ import { ApigatewayCourseModule as EnrolledcoursesCourseModule } from './enrolle
 import { ApigatewayStudentModule as EnrolledcoursesStudentModule } from './enrolledcourses/student/student.module';
 import { ApigatewayExamModule as ExamExamModule } from './exam/exam/exam.module';
 import { ApigatewayAppuserModule as ExamAppuserModule } from './exam/appuser/appuser.module';
+import { ApigatewayIngredientModule as FoodIngredientModule } from './food/ingredient/ingredient.module';
+import { ApigatewayRecipeModule as FoodRecipeModule } from './food/recipe/recipe.module';
+import { ApigatewayMenuModule as FoodMenuModule } from './food/menu/menu.module';
+import { ApigatewayRestaurantModule as FoodRestaurantModule } from './food/restaurant/restaurant.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -39,6 +43,10 @@ import { ApigatewayAppuserModule as ExamAppuserModule } from './exam/appuser/app
         EnrolledcoursesStudentModule,
         ExamExamModule,
         ExamAppuserModule,
+        FoodIngredientModule,
+        FoodRecipeModule,
+        FoodMenuModule,
+        FoodRestaurantModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
