@@ -32,6 +32,10 @@ import { ApigatewayPhotoModule as PhotoPhotoModule } from './photo/photo/photo.m
 import { ApigatewayLineModule as PublictransportLineModule } from './publictransport/line/line.module';
 import { ApigatewayScheduledclassModule as ScheduleScheduledclassModule } from './schedule/scheduledclass/scheduledclass.module';
 import { ApigatewayStudentModule as ScheduleStudentModule } from './schedule/student/student.module';
+import { ApigatewayArticleModule as SportArticleModule } from './sport/article/article.module';
+import { ApigatewayPlayerModule as SportPlayerModule } from './sport/player/player.module';
+import { ApigatewayTeamModule as SportTeamModule } from './sport/team/team.module';
+import { ApigatewayScheduleModule as SportScheduleModule } from './sport/schedule/schedule.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -69,6 +73,10 @@ import { ApigatewayStudentModule as ScheduleStudentModule } from './schedule/stu
         PublictransportLineModule,
         ScheduleScheduledclassModule,
         ScheduleStudentModule,
+        SportArticleModule,
+        SportPlayerModule,
+        SportTeamModule,
+        SportScheduleModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
