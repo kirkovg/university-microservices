@@ -29,6 +29,7 @@ import { ApigatewayFileModule as MultimediaFileModule } from './multimedia/file/
 import { ApigatewayArticleModule as NewsArticleModule } from './news/article/article.module';
 import { ApigatewayScheduledclassModule as OfficehoursScheduledclassModule } from './officehours/scheduledclass/scheduledclass.module';
 import { ApigatewayPhotoModule as PhotoPhotoModule } from './photo/photo/photo.module';
+import { ApigatewayLineModule as PublictransportLineModule } from './publictransport/line/line.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -63,6 +64,7 @@ import { ApigatewayPhotoModule as PhotoPhotoModule } from './photo/photo/photo.m
         NewsArticleModule,
         OfficehoursScheduledclassModule,
         PhotoPhotoModule,
+        PublictransportLineModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
