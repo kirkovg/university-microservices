@@ -21,6 +21,8 @@ import { ApigatewayIngredientModule as FoodIngredientModule } from './food/ingre
 import { ApigatewayRecipeModule as FoodRecipeModule } from './food/recipe/recipe.module';
 import { ApigatewayMenuModule as FoodMenuModule } from './food/menu/menu.module';
 import { ApigatewayRestaurantModule as FoodRestaurantModule } from './food/restaurant/restaurant.module';
+import { ApigatewayCompletedcourseModule as GradespreviewCompletedcourseModule } from './gradespreview/completedcourse/completedcourse.module';
+import { ApigatewayStudentModule as GradespreviewStudentModule } from './gradespreview/student/student.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -47,6 +49,8 @@ import { ApigatewayRestaurantModule as FoodRestaurantModule } from './food/resta
         FoodRecipeModule,
         FoodMenuModule,
         FoodRestaurantModule,
+        GradespreviewCompletedcourseModule,
+        GradespreviewStudentModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
