@@ -1,5 +1,5 @@
 # University microservices
-Project done as part of my bachelor thesis [https://finki.ukim.mk](FCSE).
+Project done as part of my bachelor thesis @[FCSE](https://finki.ukim.mk).
 
 ## Technologies used
 * JHipster
