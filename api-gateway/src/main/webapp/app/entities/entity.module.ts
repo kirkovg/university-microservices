@@ -26,6 +26,7 @@ import { ApigatewayStudentModule as GradespreviewStudentModule } from './gradesp
 import { ApigatewayBookModule as LibraryBookModule } from './library/book/book.module';
 import { ApigatewayPlaceModule as LocationPlaceModule } from './location/place/place.module';
 import { ApigatewayFileModule as MultimediaFileModule } from './multimedia/file/file.module';
+import { ApigatewayArticleModule as NewsArticleModule } from './news/article/article.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -57,6 +58,7 @@ import { ApigatewayFileModule as MultimediaFileModule } from './multimedia/file/
         LibraryBookModule,
         LocationPlaceModule,
         MultimediaFileModule,
+        NewsArticleModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
