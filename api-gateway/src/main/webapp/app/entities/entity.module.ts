@@ -30,6 +30,8 @@ import { ApigatewayArticleModule as NewsArticleModule } from './news/article/art
 import { ApigatewayScheduledclassModule as OfficehoursScheduledclassModule } from './officehours/scheduledclass/scheduledclass.module';
 import { ApigatewayPhotoModule as PhotoPhotoModule } from './photo/photo/photo.module';
 import { ApigatewayLineModule as PublictransportLineModule } from './publictransport/line/line.module';
+import { ApigatewayScheduledclassModule as ScheduleScheduledclassModule } from './schedule/scheduledclass/scheduledclass.module';
+import { ApigatewayStudentModule as ScheduleStudentModule } from './schedule/student/student.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -65,6 +67,8 @@ import { ApigatewayLineModule as PublictransportLineModule } from './publictrans
         OfficehoursScheduledclassModule,
         PhotoPhotoModule,
         PublictransportLineModule,
+        ScheduleScheduledclassModule,
+        ScheduleStudentModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
