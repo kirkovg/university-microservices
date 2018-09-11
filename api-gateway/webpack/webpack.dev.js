@@ -34,6 +34,7 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
                 '/gradespreview',
                 '/library',
                 '/location',
+                '/multimedia',
                 /* jhipster-needle-add-entity-to-webpack - JHipster will add entity api paths here */
                 '/api',
                 '/management',

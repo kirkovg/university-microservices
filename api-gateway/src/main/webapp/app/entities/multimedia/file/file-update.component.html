@@ -1,0 +1,52 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" #editForm="ngForm">
+            <h2 id="jhi-file-heading">Create or edit a File</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!file.id">
+                    <label for="id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id"
+                        [(ngModel)]="file.id" readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="field_name">Name</label>
+                    <input type="text" class="form-control" name="name" id="field_name"
+                        [(ngModel)]="file.name" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                        [(ngModel)]="file.description" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="field_file">File</label>
+                    <div>
+                        <div *ngIf="file.file" class="form-text text-danger clearfix">
+                            <a class="pull-left" (click)="openFile(file.fileContentType, file.file)">open</a><br>
+                            <span class="pull-left">{{file.fileContentType}}, {{byteSize(file.file)}}</span>
+                            <button type="button" (click)="file.file=null;file.fileContentType=null;"
+                                    class="btn btn-secondary btn-xs pull-right">
+                                <fa-icon [icon]="'times'"></fa-icon>
+                            </button>
+                        </div>
+                        <input type="file" id="file_file" (change)="setFileData($event, file, 'file', false)"/>
+                    </div>
+                    <input type="hidden" class="form-control" name="file" id="field_file"
+                        [(ngModel)]="file.file" />
+                    <input type="hidden" class="form-control" name="fileContentType" id="field_fileContentType"
+                        [(ngModel)]="file.fileContentType" />
+                </div>
+
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span>Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.form.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span>Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
