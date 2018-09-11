@@ -24,6 +24,7 @@ import { ApigatewayRestaurantModule as FoodRestaurantModule } from './food/resta
 import { ApigatewayCompletedcourseModule as GradespreviewCompletedcourseModule } from './gradespreview/completedcourse/completedcourse.module';
 import { ApigatewayStudentModule as GradespreviewStudentModule } from './gradespreview/student/student.module';
 import { ApigatewayBookModule as LibraryBookModule } from './library/book/book.module';
+import { ApigatewayPlaceModule as LocationPlaceModule } from './location/place/place.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -53,6 +54,7 @@ import { ApigatewayBookModule as LibraryBookModule } from './library/book/book.m
         GradespreviewCompletedcourseModule,
         GradespreviewStudentModule,
         LibraryBookModule,
+        LocationPlaceModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
